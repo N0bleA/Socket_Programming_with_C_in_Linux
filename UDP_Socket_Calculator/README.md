@@ -50,7 +50,13 @@ The OP Field 1 or 2
 
 To Run: 
 
-gcc 
+gcc Calculator_Server.c -o server -lm (The lm parameter required for library linkage--> math.h)
+./server
+
+gcc Calculator_Client.c -o client 
+./client
+
+You have to set your parameters inside the code !!!!!!!!!!!!!!!!!!!!!
 
 
 
